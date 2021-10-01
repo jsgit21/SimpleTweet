@@ -7,11 +7,13 @@
             backward-compatibility can go here.
         -->
         <item name="colorPrimary">@color/twitterBlue</item>
+        <item name="android:windowBackground">@color/extraLightGray</item>
 
-        
-        
     </style>
 
+    <style name="tweetBackground">
+        <item name="android:background">@color/extraExtraLightGray</item>
+    </style>
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
