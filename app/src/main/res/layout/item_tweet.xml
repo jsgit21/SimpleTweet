@@ -5,7 +5,7 @@
     style="@style/tweetBackground"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="3dp">
+    android:layout_marginBottom="2dp">
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -14,7 +14,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
         tools:srcCompat="@tools:sample/avatars" />
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         android:textStyle="bold"
         tools:text="Chiken_Tenders" />
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/tvScreenName"
         tools:text="20h" />
 </RelativeLayout>
